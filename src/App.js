@@ -3,6 +3,7 @@ import {Authenticator } from '@aws-amplify/ui-react'
 import API, { graphqlOperation } from '@aws-amplify/api';
 import { Button } from '@material-ui/core';
 import {getArAddress} from './graphql/queries'
+import '@aws-amplify/ui-react/styles.css';
 function App() {
 
 
